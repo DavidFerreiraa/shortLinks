@@ -1,0 +1,17 @@
+{
+  "name": "shortlinks",
+  "version": "1.0.0",
+  "description": "A URL shortcut creator in Nodejs &amp; postgre.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.29",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}
