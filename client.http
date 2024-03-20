@@ -14,3 +14,5 @@ GET http://localhost:3333/api/links
 ###
 GET http://localhost:3333/rocketseat
 
+###
+GET http://localhost:3333/api/metrics
