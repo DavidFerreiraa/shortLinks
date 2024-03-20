@@ -6,9 +6,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRESQL_USERNAME=Nozer
-      - POSTGRESQL_PASSWORD=p0stgr3sql
-      - POSTGRESQL_DATABASE=shortlinks
+      - POSTGRES_USER=Nozer
+      - POSTGRES_PASSWORD=p0stgr3sql
+      - POSTGRES_DB=shortlinks
     volumes:
       - postgres_data:/bitnami/postgresql/postgres_data
 
