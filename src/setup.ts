@@ -7,7 +7,7 @@ async function setup() {
         id SERIAL PRIMARY KEY,
         code TEXT UNIQUE,
         original_url TEXT,
-        create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     )
     `
     //Wait until the end of the execution

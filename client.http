@@ -5,3 +5,9 @@ Content-Type: application/json
     "code": "rocketseat",
     "url": "https://rocketseat.com.br"
 }
+
+
+###
+
+GET http://localhost:3333/links
+

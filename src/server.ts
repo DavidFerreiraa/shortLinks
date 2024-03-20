@@ -6,6 +6,15 @@ import postgres from "postgres";
 const app = fastify();
 const PORT = 3333;
 
+app.get("/links", async (request, reply) => {
+    const result = await sql/*sql*/`
+        SELECT * FROM short_links
+        ORDER BY created_at DESC
+    `
+
+    return reply.status(200).send(result)
+})
+
 app.post("/links", async (request, reply) => {
     try {
         const createLinkSchema = z.object({
